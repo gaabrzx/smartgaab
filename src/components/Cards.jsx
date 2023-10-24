@@ -7,7 +7,7 @@ const Cards = () => {
 
   return (
     <section id="card">
-      <button onClick={redirect}>Em breve...</button>
+      <button onClick={redirect}>Whatsapp</button>
     </section>
   );
 };
