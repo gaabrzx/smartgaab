@@ -1,9 +1,13 @@
 import "../styles/components/cards.sass";
 
 const Cards = () => {
+  function redirect() {
+    window.open("https://wa.link/vd3046", "_blank");
+  }
+
   return (
     <section id="card">
-      <button>Em breve...</button>
+      <button onClick={redirect}>Em breve...</button>
     </section>
   );
 };
